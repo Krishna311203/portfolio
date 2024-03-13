@@ -2,34 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'YourFontName';
-    src: url('./font/whatever\ it\ takes.ttf') format('truetype');
-    /* Add additional font formats if available */
-  }
-
-  .chalkboard {
-    width: 100vw;
-    height: 100vh;
-    background-color: #16211d; /* Dark blue background */
-    color: #fff; /* White text */
-    padding: 20px;
-    overflow: hidden;
-    border-radius: 10px; /* Rounded corners for a more realistic effect */
-    position: relative; /* Necessary for creating chalk-like effect */
-  }
-  
-  /* Optional: Add texture for a more realistic chalkboard feel */
-  .chalkboard::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover; /* Cover the entire container */
-    background-position: center;
-    right: 0;
-    bottom: 0;
-    background-image: url('../public/grunge-style-blackboard-texture_1048-10295.avif'); /* Path to your chalkboard texture image */
-    opacity: 0.2; /* Adjust the opacity as needed */
-    z-index: -1; /* Ensure the texture is behind the content */
-  }
