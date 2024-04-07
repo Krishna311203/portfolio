@@ -24,7 +24,7 @@ export default function About() {
 
       <p className="mb-3">
         I am currently pursuing a degree in{" "}
-        <span className="font-medium">Computer Science Engineering with specialization in AI and ML</span>from SRM Institute of Science and Technology.I am urrently Working on{" "}
+        <span className="font-medium">Computer Science Engineering with specialization in AI and ML{" "}</span>from SRM Institute of Science and Technology. I am currently working on{" "}
         <span className="font-medium">full-stack web and flutter development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
