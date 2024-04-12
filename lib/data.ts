@@ -26,8 +26,7 @@ export const links = [
   {
     name: "Experience",
     hash: "#experience",
-  }
-  
+  },
 ] as const;
 
 export const experiencesData = [
@@ -35,7 +34,7 @@ export const experiencesData = [
     title: "B.Tech CSE with Specialization AI and ML",
     location: "Chennai, India",
     description:
-      "I am Pursuing B.Tech from SRM Institute of Science and Technology.",
+      "I am Pursuing B.Tech from SRM Institute of Science and Technology with CGPA - 9.71",
     icon: React.createElement(LuGraduationCap),
     date: "2019 - 2025",
   },
@@ -50,12 +49,10 @@ export const experiencesData = [
   {
     title: "MITACS Globalink Research Internship",
     location: "Dalhousie University, Canada",
-    description:
-      "",
+    description: "",
     icon: React.createElement(CgWorkAlt),
     date: "2024",
-  }
- 
+  },
 ] as const;
 
 export const projectsData = [
@@ -87,15 +84,17 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "React",
-  "flutter",
-  "firebase",
+  "Flutter",
+  "Firebase",
   "Next.js",
   "Node.js",
   "Git",
+  "Android Studio",
   "Tailwind",
   "MongoDB",
-  "Apollo",
+
   "Express",
   "Python",
+  "Java",
   "Framer Motion",
 ] as const;
