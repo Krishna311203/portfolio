@@ -61,17 +61,17 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "BelmontRMT",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked with a team of research interns for a inhouse project in collaboration with Australian University to develop a genetic algorithm based web platform for patients.",
+    tags: ["React", "Flask", "MongoDB", "Keras"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "SIH-Fluent-Speech",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Built initially for SIH hackathon it is a platform to exercise speaking abilities using generative AI.",
+    tags: ["React", "Node", "Open-AI API"],
     imageUrl: rmtdevImg,
   },
   {
